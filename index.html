@@ -5,30 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rob Sanchez</title>
     <link rel="stylesheet" href="./styles.css" />
-    <script src="https://kit.fontawesome.com/36d09148ab.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/36d09148ab.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <section id="about-me">
       <nav>
         <div class="personal__logo">Rob Sanchez</div>
         <ul class="nav__link--list">
-          <li>
+          <li class="nav__link">
             <a
               href="#languages"
               class="nav__link--anchor link__hover-effect link__hover-effect--black"
               >Languages</a
             >
           </li>
-          <li>
+          <li class="nav__link">
             <a
               href="#projects"
               class="nav__link--anchor link__hover-effect link__hover-effect--black"
               >Projects</a
             >
           </li>
-          <li>
+          <li class="nav__link">
             <a
-              href="#contact"
+              href="mailto:rob.sanchez.j@gmail.com"
               class="nav__link--anchor nav__link--anchor-primary"
               >Contact</a
             >
@@ -39,10 +42,14 @@
         <div class="about-me__info row">
           <div class="about-me__info--container">
             <figure class="about-me__picture--mask">
-              <img src="./assets/IMG_1003.jpeg" class="about-me__picture" alt="Picture of Me!" />
+              <img
+                src="./assets/IMG_1003.jpeg"
+                class="about-me__picture"
+                alt="Picture of Me!"
+              />
             </figure>
             <h1 class="about-me__info--title">
-              Hey! I'm <span class="text-purple">Rob Sanchez</span> 👋
+              Hey! I'm <span class="text--blue">Rob Sanchez</span>&nbsp;<span class="about-me__info--emoji">👋</span>
             </h1>
             <p class="about-me__info--para">
               I'm a
@@ -52,25 +59,241 @@
               also make a positive impact on the world.
             </p>
             <div class="about-me__links">
-                <a href="" class="about-me__link">
-                    <i class="fa-brands fa-linkedin"></i>
-                </a>
-                <a href="" class="about-me__link">
-                    <i class="fa-brands fa-github"></i>
-                </a>
-                <a href="" class="about-me__link">
-                    <i class="far fa-envelope"></i>
-                </a>
-                <a href="" class="about-me__link">
-                    <i class="fas fa-file-pdf"></i>
-                </a>
+              <a href="https://www.linkedin.com/in/robert-sanchez-jr/" target="_blank" class="about-me__link">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+              <a href="https://github.com/Rob-Sanchez-Cs" target="_blank" class="about-me__link">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="mailto:rob.sanchez.j@gmail.com" target="_blank" class="about-me__link">
+                <i class="far fa-envelope"></i>
+              </a>
+              <a href="./assets/Robert_Sanchez_Resume.pdf" target="_blank" class="about-me__link">
+                <i class="fas fa-file-pdf"></i>
+              </a>
             </div>
           </div>
           <figure class="about-me__img--container">
-            <img src="./assets/undraw_building_websites_i78t.svg" class="about-me__img" alt="">
+            <img
+              src="./assets/undraw_building_websites_i78t.svg"
+              class="about-me__img"
+              alt=""
+            />
           </figure>
         </div>
       </div>
     </section>
+    <section id="languages">
+      <div class="container">
+        <div class="row">
+          <h1 class="section__title">
+            This is my <strong class="text--blue">technology stack</strong>
+          </h1>
+          <div class="language__list">
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png"
+                  class="language__img"
+                  alt=""
+                />
+              </figure>
+              <span class="language__name">HTML</span>
+            </div>
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img
+                  src="https://cdn.iconscout.com/icon/free/png-256/css-131-722685.png"
+                  class="language__img"
+                  alt=""
+                />
+              </figure>
+              <span class="language__name">CSS</span>
+            </div>
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img
+                  src="https://cdn.iconscout.com/icon/free/png-256/javascript-1-225993.png"
+                  class="language__img"
+                  alt=""
+                />
+              </figure>
+              <span class="language__name">JavaScript</span>
+            </div>
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img
+                  src="https://cdn.iconscout.com/icon/free/png-256/react-3-1175109.png"
+                  class="language__img"
+                  alt=""
+                />
+              </figure>
+              <span class="language__name">React</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <div class="container">
+        <div class="row">
+          <h1 class="section__title">
+            Here are some of my <strong class="text--blue">projects</strong>
+          </h1>
+          <ul class="project__list">
+            <li class="project">
+              <div class="project__wrapper">
+                <img
+                  src="./assets/loopit.png"
+                  class="project__img"
+                  alt="Car subscription project"
+                />
+                <div class="project__description">
+                  <h3 class="project__description--title">Car sales project</h3>
+                  <h4 class="project__description--sub-title">
+                    HTML, CSS, JavaScript, Vue, Vuex
+                  </h4>
+                  <p class="project__description--para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Necessitatibus, debitis! Corrupti iure odio dignissimos
+                    quisquam asperiores at nulla aliquid sit in molestiae,
+                    ducimus nobis repellendus exercitationem minima? Deserunt,
+                    enim sequi.
+                  </p>
+                  <div class="project__description--links">
+                    <a
+                      href="https://github.com/Rob-Sanchez-Cs"
+                      target="_blank"
+                      class="project__description--link"
+                    >
+                      <i class="fab fa-github"></i>
+                    </a>
+                    <a
+                      href="https://www.google.com"
+                      class="project__description--link"
+                    >
+                      <i class="fas fa-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="project">
+              <div class="project__wrapper">
+                <img
+                  src="./assets/loopit.png"
+                  class="project__img"
+                  alt="Car subscription project"
+                />
+                <div class="project__description">
+                  <h3 class="project__description--title">Car sales project</h3>
+                  <h4 class="project__description--sub-title">
+                    HTML, CSS, JavaScript, Vue, Vuex
+                  </h4>
+                  <p class="project__description--para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Necessitatibus, debitis! Corrupti iure odio dignissimos
+                    quisquam asperiores at nulla aliquid sit in molestiae,
+                    ducimus nobis repellendus exercitationem minima? Deserunt,
+                    enim sequi.
+                  </p>
+                  <div class="project__description--links">
+                    <a
+                      href="https://github.com/Rob-Sanchez-Cs"
+                      target="_blank"
+                      class="project__description--link"
+                    >
+                      <i class="fab fa-github"></i>
+                    </a>
+                    <a
+                      href="https://www.google.com"
+                      class="project__description--link"
+                    >
+                      <i class="fas fa-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="project">
+              <div class="project__wrapper">
+                <img
+                  src="./assets/loopit.png"
+                  class="project__img"
+                  alt="Car subscription project"
+                />
+                <div class="project__description">
+                  <h3 class="project__description--title">Car sales project</h3>
+                  <h4 class="project__description--sub-title">
+                    HTML, CSS, JavaScript, Vue, Vuex
+                  </h4>
+                  <p class="project__description--para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Necessitatibus, debitis! Corrupti iure odio dignissimos
+                    quisquam asperiores at nulla aliquid sit in molestiae,
+                    ducimus nobis repellendus exercitationem minima? Deserunt,
+                    enim sequi.
+                  </p>
+                  <div class="project__description--links">
+                    <a
+                      href="https://github.com/Rob-Sanchez-Cs"
+                      target="_blank"
+                      class="project__description--link"
+                    >
+                      <i class="fab fa-github"></i>
+                    </a>
+                    <a
+                      href="https://www.google.com"
+                      class="project__description--link"
+                    >
+                      <i class="fas fa-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="row footer__row">
+        <a href="#" class="footer__anchor">
+          <figure class="footer__logo">
+            <img src="./assets/logo.svg" class="footer__logo--img" alt="" />
+          </figure>
+          <span class="footer__logo--popup">
+            Top
+            <i class="fas fa-arrow-up"></i>
+          </span>
+        </a>
+        <div class="footer__social--list">
+          <a
+            href="https://github.com/Rob-Sanchez-Cs"
+            class="footer__social--link link__hover-effect link__hover-effect--white"
+            target="_blank"
+          >GitHub</a>
+          <a
+            href="https://www.linkedin.com/in/robert-sanchez-jr/"
+            class="footer__social--link link__hover-effect link__hover-effect--white"
+            target="_blank"
+          >LinkedIn</a>
+          <a
+            href="mailto:rob.sanchez.j@gmail.com"
+            class="footer__social--link link__hover-effect link__hover-effect--white"
+            target="_blank"
+          >Email</a>
+          <a
+            href="./assets/Robert_Sanchez_Resume.pdf"
+            class="footer__social--link link__hover-effect link__hover-effect--white"
+            target="_blank"
+          >Resume</a>
+        </div>
+        <div class="footer__copyright">Copyright © 2024 Rob Sanchez</div>
+      </div>
+      
+    </footer>
+    
   </body>
 </html>
